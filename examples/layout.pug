@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title=`${name} | ${description}`
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width")
+    link(rel="stylesheet", href="light.css")
+    block head
+  body.container
+    header
+      block header
+    main
+      block content
+    footer
+      block footer

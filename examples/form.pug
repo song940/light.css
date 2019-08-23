@@ -1,0 +1,69 @@
+#form-example
+  h2 Form
+  form.form
+    .row
+      .col-12
+        label
+          | Input Label
+          input(type='text', placeholder='Twelve')
+    .row
+      .col-4
+        label
+          | Input Label
+          input(type='text', placeholder='Four')
+      .col-4
+        label
+          | Input Label
+          input(type='text', placeholder='Four')
+      .col-4
+        label
+          | Input Label
+          input(type='text', placeholder='Four')
+    .row
+      .col-6
+        label
+          | Select option
+          select
+            option(value='hello') Hello
+            option(value='bonsua') Bonsua
+            option(value='sveiki') Sveiki
+            option(value='ola') Ola
+      .col-6
+        label
+          | Select option
+          select
+            option(value='potato') Potato
+            option(value='asparagus') Asparagus
+            option(value='avocado') Avocado
+            option(value='rhubarb') Rhubarb
+    .row
+      .col-6
+        label Radio buttons
+        input#radioYes(type='radio', name='radio', value='Yes')
+        label(for='radioYes') Yes
+        input#radioNo(type='radio', name='radio', value='No')
+        label(for='radioNo') No
+      .col-6
+        label Checkbox buttons
+        input#checkbox1(type='checkbox')
+        label(for='checkbox1') Checkbox 1
+        input#checkbox2(type='checkbox')
+        label(for='checkbox2') Checkbox 2
+    .row
+      .col-12
+        label
+          | Input & Button Group
+          .form-group
+            .form-control
+              input(type="text")
+            .form-control
+              input(type="submit").button
+    .row
+      .col-12
+        label
+          | Textarea Label
+          textarea(placeholder='Twelve textarea')
+    .row
+      .col-12
+        input.button.success(type='submit', value='Submit')
+        input.button.danger(type='submit', value='Reset')

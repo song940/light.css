@@ -1,0 +1,36 @@
+/**
+ * Table
+ */
+ .table{
+    width: 100%;
+  }
+  
+  .table thead{
+    border-bottom: 1px solid #efefef;
+  }
+  
+  .table th{
+    padding: 8px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .table td{
+    padding: 2px;
+  }
+  .table-border,
+  .table-border th,
+  .table-border tr,
+  .table-border td{
+    border: 1px solid #ddd;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd){
+    background-color: #fafafa;
+  }
+  
+  .table-hover tbody tr:hover{
+    opacity: .8;
+    background-color: #f0f0f0;
+  }

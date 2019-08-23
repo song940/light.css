@@ -1,0 +1,62 @@
+@import "light-vars";
+
+.button{
+  outline: 0;
+  opacity: .95;
+  font-size: 1em;
+  min-width: 70px;
+  cursor: pointer;
+  appearance: none;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: .4rem .45rem;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  color: $button-text-color;
+  border: 1px solid $button-border-color;
+  background-color: $button-background-color;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &-primary{
+    color: $white-color;
+    border-color: $primary-color;
+    background-color: $primary-color;
+  }
+
+  &-success{
+    color: $white-color;
+    border-color: $success-color;
+    background-color: $success-color;
+  }
+
+  &-warning{
+    color: $white-color;
+    border-color: $warning-color;
+    background-color: $warning-color;
+  }
+
+  &-danger{
+    color: $white-color;
+    border-color: $danger-color;
+    background-color: $danger-color;
+  }
+
+  &-small{
+    font-size: .75em;
+    padding: .1rem .2rem;
+  }
+  &-large{
+    font-size: 1.25em;
+    padding: .5rem .6rem;
+  }
+  &-block{
+    width: 100%;
+    display: block;
+    max-width: 100%;
+  }
+}

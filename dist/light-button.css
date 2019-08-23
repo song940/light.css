@@ -1,0 +1,60 @@
+
+/* input */
+/* button */
+.button{
+  outline: 0;
+  opacity: .95;
+  font-size: 1em;
+  min-width: 70px;
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: .4rem .45rem;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #333;
+  border: 1px solid #ddd;
+  background-color: #eee
+}
+.button:hover {
+  opacity: 1;
+}
+.button-primary{
+    color: #fff;
+    border-color: #1682af;
+    background-color: #1682af;
+}
+.button-success{
+    color: #fff;
+    border-color: #27ae60;
+    background-color: #27ae60;
+}
+.button-warning{
+    color: #fff;
+    border-color: #f39c12;
+    background-color: #f39c12;
+}
+.button-danger{
+    color: #fff;
+    border-color: #e74c3c;
+    background-color: #e74c3c;
+}
+.button-small{
+    font-size: .75em;
+    padding: .1rem .2rem;
+}
+.button-large{
+    font-size: 1.25em;
+    padding: .5rem .6rem;
+}
+.button-block{
+    width: 100%;
+    display: block;
+    max-width: 100%;
+}

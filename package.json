@@ -1,0 +1,33 @@
+{
+  "name": "light.css",
+  "version": "0.0.4",
+  "description": "A lightweight CSS framework",
+  "main": "dist/light.css",
+  "author": "Lsong <song940@gmail.com>",
+  "scripts": {
+    "build": "gulp"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^3.8.0",
+    "gulp": "3",
+    "gulp-postcss": "latest",
+    "postcss-advanced-variables": "^1.2.2",
+    "postcss-import": "^11.0.0",
+    "postcss-mixins": "^5.4.0",
+    "postcss-nested": "^2.1.2"
+  },
+  "postcss": [
+    "precss",
+    "autoprefixer"
+  ],
+  "dependencies": {
+    "autoprefixer": "^7.1.4",
+    "kelp": "^1.0.5",
+    "kelp-render": "^1.0.2",
+    "kelp-static": "^1.2.8",
+    "postcss-partial-import": "^4.1.0",
+    "precss": "^2.0.0",
+    "pug": "^2.0.0-rc.4"
+  }
+}

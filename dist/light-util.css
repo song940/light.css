@@ -1,0 +1,49 @@
+
+.clearfix:after{
+  height: 0;
+  clear: both;
+  font-size: 0;
+  content: " ";
+  display: block;
+  visibility: hidden;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.pull-left{
+  float: left;
+}
+
+.pull-right{
+  float: right;
+}
+
+.inline{
+  display: inline;
+}
+
+.block{
+  display: block;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.full-width{
+  width: 100%;
+}

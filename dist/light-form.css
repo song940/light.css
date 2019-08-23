@@ -1,0 +1,43 @@
+
+/* input */
+/* button */
+.form label{
+    display: block;
+  }
+.form select, .form textarea, .form input:not([type]), .form input[type="tel"], .form input[type="url"], .form input[type="time"], .form input[type="text"], .form input[type="date"], .form input[type="email"], .form input[type="color"], .form input[type="search"], .form input[type="number"], .form input[type="datetime"], .form input[type="password"] {
+    outline: 0;
+    width: 100%;
+    font-size: 1em;
+    display: block;
+    padding: .4rem;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border-radius: 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #333;
+    border: 1px solid #ccc;
+    background-color: $input-background-color;
+  }
+.form input[type="radio"] + label, .form input[type="checkbox"] + label  {
+    display: inline-block;
+  }
+.form.text-center input {
+    text-align: center;
+}
+.form-control + .form-control {
+    margin-top: 10px;
+}
+.form-group {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.form-group .form-control {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 1 auto;
+              flex: 1 1 auto;
+      margin-top: 0px;
+    }

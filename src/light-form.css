@@ -1,0 +1,56 @@
+@import "light-vars";
+
+.form{
+  label{
+    display: block;
+  }
+  select,
+  textarea,
+  input:not([type]),
+  input[type="tel"],
+  input[type="url"],
+  input[type="time"],
+  input[type="text"],
+  input[type="date"],
+  input[type="email"],
+  input[type="color"],
+  input[type="search"],
+  input[type="number"],
+  input[type="datetime"],
+  input[type="password"] {
+    outline: 0;
+    width: 100%;
+    font-size: 1em;
+    display: block;
+    padding: .4rem;
+    appearance: none;
+    border-radius: 0px;
+    box-sizing: border-box;
+    color: $input-text-color;
+    border: 1px solid $input-border-color;
+    background-color: $input-background-color;
+  }
+
+  input[type="radio"] + label,
+  input[type="checkbox"] + label  {
+    display: inline-block;
+  }
+
+  &.text-center input {
+    text-align: center;
+  }
+
+  &-control + &-control {
+    margin-top: 10px;
+  }
+
+  &-group {
+    width: 100%;
+    display: flex;
+
+    .form-control {
+      flex: 1 1 auto;
+      margin-top: 0px;
+    }
+  }
+}

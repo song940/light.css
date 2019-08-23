@@ -1,0 +1,20 @@
+
+$white-color: #fff;
+$border-color: #ccc;
+$primary-color: #1682af;
+$success-color: #27ae60;
+$warning-color: #f39c12;
+$danger-color: #e74c3c;
+
+$base-font-color: #333;
+$base-font-size: 100%;
+$base-line-height: 1.5;
+
+/* input */
+$input-text-color: #333;
+$input-border-color: $border-color;
+
+/* button */
+$button-text-color: #333;
+$button-border-color: #ddd;
+$button-background-color: #eee;

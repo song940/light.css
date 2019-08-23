@@ -1,0 +1,40 @@
+.progress{
+	width: 100%;
+	height: 20px;
+	background: #ccc;
+	border-radius: 4px;
+	overflow: hidden;
+	z-index: 100;
+}
+
+.progress .bar{
+	color: white;
+	height: 100%;
+	line-height: 1.3;
+	max-width: 100%;
+	min-width: 0%;
+	background: skyblue;
+	text-align: center;
+	transition: all .5s ease;
+	background-size: 40px 40px;
+	background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+}
+
+.loading{
+	top: 0;
+  left: 0;
+  width: 100%;
+	height: 2px;
+	position: fixed;
+	background-color: transparent;
+	border-radius: 0;
+
+}
+
+.loading .bar{
+  width: 30%;
+  height: 2px;
+	background-color: #29d;
+	border-radius: 0 3px 3px 0;
+	box-shadow: 0 0 10px #29d, 0 0 10px #29d;
+}
